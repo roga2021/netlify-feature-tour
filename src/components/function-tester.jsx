@@ -3,16 +3,14 @@ import { useState } from "preact/hooks";
 function ExerciseStart({ handleClick, output, children }) {
   return (
     <>
-      <h2>Create Your First Serverless Function</h2>
+      <h2>Test us for a day</h2>
       <p>
-        Create a new file at <code>/netlify/functions/hello-world.js</code> and
-        put the following inside:
+        Its an army of positive warriors equipped with the latest GIFs and memes to disengage the rest of the community from the FUDster:
       </p>
       {children}
 
       <p>
-        Save it, then run <code>netlify dev</code> to test locally. Check your
-        work by clicking the button below!
+        Once the inverse trojan horse is released, it will extremely difficult for the smartest alec to banter your admins or devs!
       </p>
 
       {output && (
@@ -29,7 +27,7 @@ function ExerciseStart({ handleClick, output, children }) {
       )}
 
       <button onClick={handleClick} class="button">
-        Test Your Function
+        Click here for examples
       </button>
     </>
   );
